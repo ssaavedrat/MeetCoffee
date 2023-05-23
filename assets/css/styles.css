@@ -1,0 +1,188 @@
+/* Reset de Valores */
+/* Pista: tomen los px que usan Bryan y los dividen por 16 y tienen los em. */
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body{
+    text-align: center;
+    color: #000F08;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5625rem;
+}
+
+nav{
+    background-color: #000f08;
+    color: white;
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+nav ul li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 3rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav img {
+    width: 2rem;
+	filter: invert(100%);
+}
+
+header{
+    /* Hero Image */
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Texto */
+    color: white;
+    text-shadow: 0px 3px 6px black;
+    opacity: 1;
+    text-align: right;
+
+    padding: 6.25rem;
+}	
+
+header h1{
+    font-size: 3.75rem;
+    font-weight: 800;
+    padding-left: 25%; 
+}
+
+header h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+#ubicacion{
+    padding: 9rem;
+}
+
+#ubicacion h2{
+    font-weight: 700;
+    font-size: 2.8125rem;
+    padding: 1rem;
+}
+
+#ubicacion p{
+    font-size: 1.5rem;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#ubicacion img{
+    width: 28.125rem;
+}
+
+#proxima-charla {
+    background-color: #A4452C;
+    padding: 4rem 0rem;
+    color: white;
+}
+
+#proxima-charla .texto{
+    text-align: left;
+    width: 54rem;
+}
+
+#proxima-charla img{
+    width: 20rem;
+    margin-right: 5rem;
+}
+
+#proxima-charla img, .texto{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.3135rem;
+}
+
+#proxima-charla h2{
+    font-size: 2.8125rem;
+    font-weight: 700;
+}
+
+#proxima-charla h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#proxima-charla h4{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#proxima-charla h5{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+#proxima-charla p{
+    margin-top: 1rem;
+    padding-right: 9.375rem;
+    font-size: 1.5625rem;
+}
+
+#eventos{
+    padding: 2%;
+}
+
+#eventos h2{
+    font-size: 2.8125rem;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+#eventos h3{
+    font-size: 2.1875rem;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+#eventos a{
+    text-decoration: none;
+    color: black;
+}
+
+#eventos article{
+    display: inline-block;
+    align-content: space-between;
+    margin: 0 1%;
+    font-size: 1rem;
+}
+
+footer{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background: #000f08;
+    color: white;
+    padding: 3.125rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    padding: 0 1rem;
+    margin-bottom: 2 rem;
+}
+
+footer p{
+    margin-top: 2rem;
+}
+
+i{
+    font-size: 3.125rem;
+}
